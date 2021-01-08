@@ -85,10 +85,10 @@
         <b-row>
           <b-col md="8" class="banner-sec">
             <div class="carousel-inner carousel">
-              <img class="d-block img-fluid" src="https://static.pexels.com/photos/33972/pexels-photo.jpg" alt="First slide">
+              <img class="d-block img-fluid" src="/images/1.jpg" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
                 <div class="banner-text">
-                    <h2>Billing System</h2>
+                    <h2>POS System</h2>
                 </div>	
               </div>
             </div>

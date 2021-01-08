@@ -9,7 +9,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
-        "mrholek/CoreUI-Free-Bootstrap-Admin-Template": "dev-24d9a64",
+        "mrholek/coreui-free-bootstrap-admin-template": "dev-24d9a64",
         "phpoffice/phpspreadsheet": "^1.6",
         "tymon/jwt-auth": "dev-develop"
     },
@@ -20,21 +20,19 @@
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.0"
     },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "mrholek/coreui-free-bootstrap-admin-template",
-                "version": "dev-24d9a64",
-                "source": {
-                    "url": "https://github.com/coreui/coreui-free-bootstrap-admin-template.git",
-                    "type": "git",
-                    "reference": "24d9a64"
-                }
-
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "name": "mrholek/coreui-free-bootstrap-admin-template",
+            "version": "dev-24d9a64",
+            "source": {
+                "url": "https://github.com/coreui/coreui-free-bootstrap-admin-template.git",
+                "type": "git",
+                "reference": "24d9a64"
             }
+
         }
-    ],
+    }],
     "autoload": {
         "classmap": [
             "database/seeds",
@@ -51,8 +49,7 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-            ]
+            "dont-discover": []
         }
     },
     "scripts": {
